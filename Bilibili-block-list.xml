@@ -76,8 +76,10 @@ Bilibili 弹幕屏蔽列表 2018.11.26
 <item enabled="true">t=笑看</item>
 <item enabled="true">r=我(的)?(床上|老婆)</item>
 <item enabled="true">r=	冫|刂|二|匚|阝|丷|卩|冂|冖|凵|亻|入|十|厶|亠|匸|讠|廴|又|丨|亅|丿|乛|乚|丶|彳|巛|辶|廾|彐|彑|宀|犭|彡|饣|扌|氵|纟|忄|尢|夂|灬|牜|爿|爫|礻|癶|衤|糹|豸|釒|丷|亍|勹</item>
+<item enabled="true">r=厂下广卞廿|十一卉半与|屮|艸|芔|茻|●～|▂|▅|▆|▇|█|★═|▄|︻|∝|━|卐|╝|╚|╔|╗|╬|═|╓|╩|┠|┨┯|┷|┏|[←↖↑↗→↘↓↙]{3,}</item>
 <item enabled="true">t=逝者安息</item>
-<item enabled="true">r=(抖音|快手)</item>
+<item enabled="true">r=抖音|快手</item>
+<item enabled="true">r=[妖帝魔伪]都|辽宁|吉林|黑龙江|河北|山西|陕西|甘肃|青海|山东|安徽|江苏|浙江|河南|湖北|湖南|江西|台[湾灣]|福建|云南|海南|四川|贵州|广东|内蒙古|新疆|广西|西藏|宁夏|北京|上海|天津|重庆|香港|澳[门門]|深圳|广州|成都</item>
 
 <!-- 倍速 -->
 <item enabled="true">r=(0.5|1.5|2.0|2|两)(倍|倍速|速度)?播(放)?</item>
@@ -121,14 +123,15 @@ Bilibili 弹幕屏蔽列表 2018.11.26
 
 <!-- 不尊重人的侮辱性表现 -->
 <item enabled="true">r=(傻|穷|二|2)(B|逼|屌|叼|吊)</item>
+<item enabled="true">r=屌|艹|痰|屄|尻|娼|嫖|婊|裱|贱|肏|吠|傻|痴|呸|呕|淫|啐|胴|烂|屎</item>
 <item enabled="true">t=臭傻</item>
-<item enabled="true">t=屌</item>
-<item enabled="true">t=艹</item>
 <item enabled="true">t=我日</item>
 <item enabled="true">r=(你)*(他)*妈</item>
 <item enabled="true">t=漂移</item>
 <item enabled="true">t=恶心</item>
 <item enabled="true">t=滚出</item>
-<item enabled="true">t=(棒滚|走狗|日本狗|精日)</item>
-<item enabled="true">t=有毛?病</item>
+<item enabled="true">r=棒滚|走狗|美.{0,5}[分狗]|俄爹|小日本|精日|日杂|鬼子|汉[奸J]|日元|奴性|你[国國]|大[陆陸]|棒子|反[美日韩]</item>
+<item enabled="true">r=[共供].{0,5}[产產铲惨].{0,5}[党黨]|[Gg][Cc][Dd]|伟.{0,5}光.{0,5}正|[你我][党黨]|土共]|法[輪轮](功|大法)|姓.{0,5}赵|赵家人|城管</item>
+<item enabled="true">r=有毛?病</item>
+<item enabled="true">r=[啊Aa]{8,}|[哈Hh]{8,}|[呜5u]{7,}|[嗷奥噢]{7,}|[吊屌叼刁弔]{4,}</item>
 </filters>

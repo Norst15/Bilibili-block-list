@@ -24,4 +24,6 @@
 
 # 来源
 主要为自己手动添加。  
-部分额外规则来源：[Bilibili 屏蔽词分享平台](https://harrynull.tech/bilibili/)
+部分额外规则来源：
+- [Bilibili 屏蔽词分享平台](https://harrynull.tech/bilibili/)
+- [jnxyp/Bilibili-Block-List](https://github.com/jnxyp/Bilibili-Block-List)
