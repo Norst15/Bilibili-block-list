@@ -1,14 +1,16 @@
 # 哔哩哔哩弹幕屏蔽规则
+![](https://img.shields.io/badge/Bilibili%20屏蔽规则-2018.11.26-green.svg?longCache=true&colorB=fb7299&style=for-the-badge)  
 这个弹幕规则本意是自用的，是否使用请根据您自身的需求和接受能力。
 
 # 使用方式
-1. 右键 [最新规则](Bilibili-block-list.xml) 保存。
+1. 右键 [最新规则](https://github.com/fang2hou/Bilibili-block-list/raw/master/Bilibili-block-list.xml) 保存。
 2. 在 Bilibili.com 的播放器设定区导入。
 
-可参考下面的图片进行操作
 ![操作图片](example.png)
 
-# 主要条目
+# 规则说明
+[查看规则](Bilibili-block-list.xml)
+
 1. 片头片尾
 2. 倍速
 3. 幼稚许愿
