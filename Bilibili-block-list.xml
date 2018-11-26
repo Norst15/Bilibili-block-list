@@ -1,5 +1,5 @@
 <!-- 
-Bilibili 屏蔽列表 11.26.2018
+Bilibili 弹幕屏蔽列表 2018.11.26
 
 是否使用请根据您自身的需求和接受能力.
 本规则误伤程度为: 轻微误伤
@@ -9,11 +9,11 @@ Bilibili 屏蔽列表 11.26.2018
 <filters>
 <!-- 片头片尾 -->
 <item enabled="true">t=欢迎回来</item>
-<item enabled="true">t=(开|片)头(再)?见</item>
+<item enabled="true">r=(开|片)头(再)?见</item>
 <item enabled="true">t=考古</item>
 <item enabled="true">t=完结撒花</item>
 <item enabled="true">r=^[零一二两俩三四五六七八九十\\d]+(秒|分|小时)</item>
-<item enabled="true">r=min</item>
+<item enabled="true">t=min</item>
 <item enabled="true">r=^前.*小时</item>
 <item enabled="true">r=^刚刚$</item>
 <item enabled="true">t=更新</item>
@@ -23,22 +23,22 @@ Bilibili 屏蔽列表 11.26.2018
 <item enabled="true">r=^第[零一二两俩三四五六七八九十\\d]+</item>
 <item enabled="true">t=弹幕呢</item>
 <item enabled="true">t=没人</item>
-<item enabled="true">t=(前排|沙发|板凳)</item>
+<item enabled="true">r=(前排|沙发|板凳)</item>
 <item enabled="true">t=交出封面</item>
-<item enabled="true">t=[wW万萬]助攻</item>
-<item enabled="true">t=空难(现场|$)</item>
-<item enabled="true">t=降.{0,3}(成功|失败|完美)</item>
+<item enabled="true">r=[wW万萬]助攻</item>
+<item enabled="true">r=空难(现场|$)</item>
+<item enabled="true">r=降.{0,3}(成功|失败|完美)</item>
 
 <!-- 刷屏大集合 -->
 <item enabled="true">r=666(6)*</item>
 <item enabled="true">r=FFF(F)*</item>
 <item enabled="true">r=777(7)*</item>
-<item enabled="true">t=>???(?)*</item>
-<item enabled="true">t=？？(？)*</item>
-<item enabled="true">t=233(3)*</item>
-<item enabled="true">t=(开口)?跪</item>
+<item enabled="true">r=>???(?)*</item>
+<item enabled="true">r=？？(？)*</item>
+<item enabled="true">r=233(3)*</item>
+<item enabled="true">t=开口跪</item>
 <item enabled="true">t=新人</item>
-<item enabled="true">t=(火钳|火前)</item>
+<item enabled="true">r=火(钳|前)</item>
 <item enabled="true">t=留名</item>
 <item enabled="true">t=无悔</item>
 <item enabled="true">t=失踪人口</item>
@@ -59,7 +59,7 @@ Bilibili 屏蔽列表 11.26.2018
 <item enabled="true">t=这要是</item>
 <item enabled="true">t=尴尬</item>
 <item enabled="true">t=撸</item>
-<item enabled="true">t=(中学|高中|小学|大学|学院|学校|初中|中学部|高中部)(到此|签到|哭了|发来)</item>
+<item enabled="true">r=(中学|高中|小学|大学|学院|学校|初中|中学部|高中部)(到此|签到|哭了|发来)</item>
 <item enabled="true">t=路过</item>
 <item enabled="true">t=告诉</item>
 <item enabled="true">t=#</item>
@@ -68,25 +68,25 @@ Bilibili 屏蔽列表 11.26.2018
 <item enabled="true">t=此生不变的信仰</item>
 <item enabled="true">t=由我来组成</item>
 <item enabled="true">t=防不胜防</item>
-<item enabled="true">t=老(菊|鹅|E)</item>
-<item enabled="true">t=入(宅|坑$)</item>
+<item enabled="true">r=老(菊|鹅|E)</item>
+<item enabled="true">r=入(宅|坑$)</item>
 <item enabled="true">t=低龄化</item>
 <item enabled="true">t=农药</item>
 <item enabled="true">t=我要死了</item>
 <item enabled="true">t=笑看</item>
-<item enabled="true">t=我(的)?(床上|老婆)</item>
-<item enabled="true">t=	冫|刂|二|匚|阝|丷|卩|冂|冖|凵|亻|入|十|厶|亠|匸|讠|廴|又|丨|亅|丿|乛|乚|丶|彳|巛|辶|廾|彐|彑|宀|犭|彡|饣|扌|氵|纟|忄|尢|夂|灬|牜|爿|爫|礻|癶|衤|糹|豸|釒|丷|亍|勹</item>
+<item enabled="true">r=我(的)?(床上|老婆)</item>
+<item enabled="true">r=	冫|刂|二|匚|阝|丷|卩|冂|冖|凵|亻|入|十|厶|亠|匸|讠|廴|又|丨|亅|丿|乛|乚|丶|彳|巛|辶|廾|彐|彑|宀|犭|彡|饣|扌|氵|纟|忄|尢|夂|灬|牜|爿|爫|礻|癶|衤|糹|豸|釒|丷|亍|勹</item>
 <item enabled="true">t=逝者安息</item>
-<item enabled="true">t=(抖音|快手)</item>
+<item enabled="true">r=(抖音|快手)</item>
 
 <!-- 倍速 -->
-<item enabled="true">t=(0.5|1.5|2.0|2|两)(倍|倍速|速度)?播(放)?</item>
+<item enabled="true">r=(0.5|1.5|2.0|2|两)(倍|倍速|速度)?播(放)?</item>
 <item enabled="true">r=倍速[^度]?</item>
 
 <!-- 幼稚许愿 -->
-<item enabled="true">t=(高|中|学|会)考</item>
-<item enabled="true">t=(许愿|保佑|希望)</item>
-<item enabled="true">t=(祝|愿|保|佑)我</item>
+<item enabled="true">r=(高|中|学|会)考</item>
+<item enabled="true">r=(许愿|保佑|希望)</item>
+<item enabled="true">r=(祝|愿|保|佑)我</item>
 <item enabled="true">t=还愿</item>
 <item enabled="true">t=考上</item>
 <item enabled="true">t=表白</item>
@@ -95,9 +95,9 @@ Bilibili 屏蔽列表 11.26.2018
 <item enabled="true">t=一单</item>
 <item enabled="true">t=五星</item>
 <item enabled="true">t=SSR</item>
-<item enabled="true">t=吸(吸)*</item>
+<item enabled="true">r=吸(吸)*</item>
 <item enabled="true">t=抽一次</item>
-<item enabled="true">t=欧(气|皇)</item>
+<item enabled="true">r=欧(气|皇)</item>
 
 <!-- 会员都要炫耀的么? -->
 <item enabled="true">t=会员</item>
@@ -120,12 +120,12 @@ Bilibili 屏蔽列表 11.26.2018
 <item enabled="true">t=祥瑞玉兔</item>
 
 <!-- 不尊重人的侮辱性表现 -->
-<item enabled="true">t=(傻|穷|二|2)(B|逼|屌|叼|吊)</item>
+<item enabled="true">r=(傻|穷|二|2)(B|逼|屌|叼|吊)</item>
 <item enabled="true">t=臭傻</item>
 <item enabled="true">t=屌</item>
 <item enabled="true">t=艹</item>
 <item enabled="true">t=我日</item>
-<item enabled="true">t=(你)*(他)*妈</item>
+<item enabled="true">r=(你)*(他)*妈</item>
 <item enabled="true">t=漂移</item>
 <item enabled="true">t=恶心</item>
 <item enabled="true">t=滚出</item>
