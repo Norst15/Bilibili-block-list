@@ -1,0 +1,134 @@
+<!-- 
+Bilibili 屏蔽列表 11.26.2018
+
+是否使用请根据您自身的需求和接受能力.
+本规则误伤程度为: 轻微误伤
+
+部分额外规则来源: https://harrynull.tech/bilibili/
+-->
+<filters>
+<!-- 片头片尾 -->
+<item enabled="true">t=欢迎回来</item>
+<item enabled="true">t=(开|片)头(再)?见</item>
+<item enabled="true">t=考古</item>
+<item enabled="true">t=完结撒花</item>
+<item enabled="true">r=^[零一二两俩三四五六七八九十\\d]+(秒|分|小时)</item>
+<item enabled="true">r=min</item>
+<item enabled="true">r=^前.*小时</item>
+<item enabled="true">r=^刚刚$</item>
+<item enabled="true">t=更新</item>
+<item enabled="true">t=第一个看完</item>
+<item enabled="true">t=好前</item>
+<item enabled="true">r=^我?超前~?$</item>
+<item enabled="true">r=^第[零一二两俩三四五六七八九十\\d]+</item>
+<item enabled="true">t=弹幕呢</item>
+<item enabled="true">t=没人</item>
+<item enabled="true">t=(前排|沙发|板凳)</item>
+<item enabled="true">t=交出封面</item>
+<item enabled="true">t=[wW万萬]助攻</item>
+<item enabled="true">t=空难(现场|$)</item>
+<item enabled="true">t=降.{0,3}(成功|失败|完美)</item>
+
+<!-- 刷屏大集合 -->
+<item enabled="true">r=666(6)*</item>
+<item enabled="true">r=FFF(F)*</item>
+<item enabled="true">r=777(7)*</item>
+<item enabled="true">t=>???(?)*</item>
+<item enabled="true">t=？？(？)*</item>
+<item enabled="true">t=233(3)*</item>
+<item enabled="true">t=(开口)?跪</item>
+<item enabled="true">t=新人</item>
+<item enabled="true">t=(火钳|火前)</item>
+<item enabled="true">t=留名</item>
+<item enabled="true">t=无悔</item>
+<item enabled="true">t=失踪人口</item>
+<item enabled="true">t=有生之年</item>
+<item enabled="true">t=怒斩</item>
+<item enabled="true">t=同款</item>
+<item enabled="true">t=慕名而来</item>
+<item enabled="true">r=(前面|说).*(别[走跑]|等[我等着])</item>
+<item enabled="true">r=你们.*((几|多少)分钟|上一?次|什么时候|第几|多(久|长时间))</item>
+<item enabled="true">r=你们.*(几分钟|上一?次|第几|多(久|长时间))</item>
+<item enabled="true">r=的(别[走跑]|等[我等着])</item>
+<item enabled="true">r=只有我(一个人|觉得|感觉)</item>
+<item enabled="true">r=你不是一个人</item>
+<item enabled="true">r=我知道你.*在看</item>
+<item enabled="true">r=([是由]|下面.*)我[儿孙]子</item>
+<item enabled="true">r=一口气</item>
+<item enabled="true">r=^我?好快$</item>
+<item enabled="true">t=这要是</item>
+<item enabled="true">t=尴尬</item>
+<item enabled="true">t=撸</item>
+<item enabled="true">t=(中学|高中|小学|大学|学院|学校|初中|中学部|高中部)(到此|签到|哭了|发来)</item>
+<item enabled="true">t=路过</item>
+<item enabled="true">t=告诉</item>
+<item enabled="true">t=#</item>
+<item enabled="true">t=试色</item>
+<item enabled="true">t=小说</item>
+<item enabled="true">t=此生不变的信仰</item>
+<item enabled="true">t=由我来组成</item>
+<item enabled="true">t=防不胜防</item>
+<item enabled="true">t=老(菊|鹅|E)</item>
+<item enabled="true">t=入(宅|坑$)</item>
+<item enabled="true">t=低龄化</item>
+<item enabled="true">t=农药</item>
+<item enabled="true">t=我要死了</item>
+<item enabled="true">t=笑看</item>
+<item enabled="true">t=我(的)?(床上|老婆)</item>
+<item enabled="true">t=	冫|刂|二|匚|阝|丷|卩|冂|冖|凵|亻|入|十|厶|亠|匸|讠|廴|又|丨|亅|丿|乛|乚|丶|彳|巛|辶|廾|彐|彑|宀|犭|彡|饣|扌|氵|纟|忄|尢|夂|灬|牜|爿|爫|礻|癶|衤|糹|豸|釒|丷|亍|勹</item>
+<item enabled="true">t=逝者安息</item>
+<item enabled="true">t=(抖音|快手)</item>
+
+<!-- 倍速 -->
+<item enabled="true">t=(0.5|1.5|2.0|2|两)(倍|倍速|速度)?播(放)?</item>
+<item enabled="true">r=倍速[^度]?</item>
+
+<!-- 幼稚许愿 -->
+<item enabled="true">t=(高|中|学|会)考</item>
+<item enabled="true">t=(许愿|保佑|希望)</item>
+<item enabled="true">t=(祝|愿|保|佑)我</item>
+<item enabled="true">t=还愿</item>
+<item enabled="true">t=考上</item>
+<item enabled="true">t=表白</item>
+<item enabled="true">t=我喜欢你</item>
+<item enabled="true">t=单抽</item>
+<item enabled="true">t=一单</item>
+<item enabled="true">t=五星</item>
+<item enabled="true">t=SSR</item>
+<item enabled="true">t=吸(吸)*</item>
+<item enabled="true">t=抽一次</item>
+<item enabled="true">t=欧(气|皇)</item>
+
+<!-- 会员都要炫耀的么? -->
+<item enabled="true">t=会员</item>
+<item enabled="true">t=帐号</item>
+<item enabled="true">t=土豪</item>
+<item enabled="true">t=贫穷</item>
+<item enabled="true">t=富</item>
+<item enabled="true">t=年费</item>
+<item enabled="true">t=微笑</item>
+<item enabled="true">t=有钱</item>
+<item enabled="true">t=承包</item>
+
+<!-- 爱国可以,别影响别人的体验 -->
+<item enabled="true">t=-1</item>
+<item enabled="true">t=+1</item>
+<item enabled="true">t=中国</item>
+<item enabled="true">t=癌</item>
+<item enabled="true">t=十年热血写信仰，荣耀永不散场</item>
+<item enabled="true">t=富强民主</item>
+<item enabled="true">t=祥瑞玉兔</item>
+
+<!-- 不尊重人的侮辱性表现 -->
+<item enabled="true">t=(傻|穷|二|2)(B|逼|屌|叼|吊)</item>
+<item enabled="true">t=臭傻</item>
+<item enabled="true">t=屌</item>
+<item enabled="true">t=艹</item>
+<item enabled="true">t=我日</item>
+<item enabled="true">t=(你)*(他)*妈</item>
+<item enabled="true">t=漂移</item>
+<item enabled="true">t=恶心</item>
+<item enabled="true">t=滚出</item>
+<item enabled="true">t=(棒滚|走狗|日本狗|精日)</item>
+<item enabled="true">t=有毛?病</item>
+</filters>
